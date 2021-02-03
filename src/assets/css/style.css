@@ -2,7 +2,112 @@
   font-family: "Raleway", sans-serif;
 }
 
+.container {
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #273338;
+  height: 123px;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 50px;
+  padding: 0 350px;
+}
+
 .header h1 {
   font-size: 50px;
+}
+
+.header div {
+  font-size: 22px;
+}
+
+.header div i {
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 7px;
+  color: #273338;
+  margin-left: 15px;
+}
+
+.accounts {
+  margin: 0 350px;
+}
+
+.account {
+  margin-bottom: 50px;
+}
+
+.account .title {
+  height: 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 20px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 30px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 4px 4px 1px #a8a8a8;
+          box-shadow: 0px 4px 4px 1px #a8a8a8;
+  position: relative;
+  z-index: 999;
+}
+
+.operations {
+  margin: 0 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #eeeeee;
+}
+
+.operations div:nth-child(2) {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+}
+
+.operations:nth-child(2n) {
+  background-color: #ffffff;
+}
+
+.operations div {
+  margin: 10px 40px;
+  padding: 0 20px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 500;
+}
+
+.operations div:first-child {
+  font-weight: 300;
+  color: #273338;
 }
 /*# sourceMappingURL=style.css.map */
